@@ -142,6 +142,7 @@ local Connection = RunService.RenderStepped:Connect(function()
     else
         FOVCircle.Visible = false
         FOVTracer.Visible = false
+        Aiming.CurrentTarget = nil
     end
 
 end)
